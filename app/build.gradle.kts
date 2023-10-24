@@ -9,14 +9,6 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        create("release") {
-            storeFile = file("C:\\Users\\Administrator\\Android_Sign_Keys\\Muqataa\\muqataa.jks")
-            storePassword = "EeNnCcEePpTt@123"
-            keyAlias = "EeNnCcEePpTt@123"
-            keyPassword = "EeNnCcEePpTt@123"
-        }
-    }
     namespace = "co.encept.muqataa"
     compileSdk = 34
 
@@ -34,7 +26,6 @@ android {
         release {
             isMinifyEnabled = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-            signingConfig = signingConfigs.getByName("release")
         }
         debug {
             isMinifyEnabled = false
