@@ -1,0 +1,16 @@
+<!--
+  ~ Copyright (c) 2023-2023. Encept Ltd Company, https://encept.co
+  ~ contact: support@encept.co
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.muqataa" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+    </style>
+
+    <style name="Theme.muqataa" parent="Base.Theme.muqataa" />
+</resources>

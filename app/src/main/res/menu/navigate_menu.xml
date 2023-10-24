@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023-2023. Encept Ltd Company, https://encept.co
+  ~ contact: support@encept.co
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_scan"
+        android:enabled="true"
+        android:icon="@drawable/ic_barcode"
+        android:title="@string/start_scan"/>
+
+    <item
+        android:id="@+id/item_manual"
+        android:enabled="true"
+        android:icon="@drawable/ic_manual"
+        android:title="@string/write_barcode"/>
+
+    <item
+        android:id="@+id/item_blacklist"
+        android:enabled="true"
+        android:icon="@drawable/ic_blacklist"
+        android:title="@string/blacklist"/>
+
+    <item
+        android:id="@+id/item_about"
+        android:enabled="true"
+        android:icon="@drawable/ic_about"
+        android:title="@string/about"/>
+</menu>

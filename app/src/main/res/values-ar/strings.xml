@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023-2023. Encept Ltd Company, https://encept.co
+  ~ contact: support@encept.co
+  -->
+
+<resources>
+    <string name="app_name">Muqataa مُقاطعة</string>
+
+    <string name="unknown_country">غير معروف</string>
+    <string name="made_in">صُنِعَ في:</string>
+    <string name="barcode">الباركود:</string>
+
+    <string name="start_scan">مسح الباركود</string>
+    <string name="write_barcode">كتابة الباركود</string>
+    <string name="blacklist">قائمة المقاطعة</string>
+    <string name="about">عن التطبيق</string>
+
+    <string name="more_apps">تطبيقات اخرى</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="manual_barcode_entry">إدخال الباركود يدوياً</string>
+    <string name="enter_barcode_number">أدخل رقم الباركود</string>
+    <string name="barcode_enter_info">اكتب رقم الباركود المكتوب على المنتج أسفل صورة الباركود.</string>
+
+    <string name="product_okay">لا مشكلة في استخدام هذا المنتج</string>
+    <string name="product_banned">مقاطعة!!, هذا المنتج مُدرج في القائمة السوداء يجب علينا مقاطعته</string>
+    <string name="product_country">دولة غير معروفة</string>
+    <string name="product_unknown">لم يتم التعرف على المنتج!</string>
+
+    <string name="developed_by_encept">تم تطوير ونشر تطبيق "\مقاطعة"\ بواسطة شركة Encept</string>
+    <string name="main_developer">المُطور الرئيسي</string>
+    <string name="karim_abdallah">كريم عبدالله</string>
+    <string name="developer_info">مبرمج تطبيقات أندرويد لدى شركة Encept\nومؤسس شركة Encept.</string>
+
+    <string name="close">إغلاق</string>
+    <string name="coming_soon">سيكون جاهز قريبًا</string>
+
+
+    <!-- Countries -->
+    <string name="country_algeria">الجزائر</string>
+    <string name="country_argentina">الأرجنتين</string>
+    <string name="country_armenia">أرمينيا</string>
+    <string name="country_australia">استراليا</string>
+    <string name="country_austria">النمسا</string>
+    <string name="country_bahrain">البحرين</string>
+    <string name="country_brazil">البرازيل</string>
+    <string name="country_cambodia">كامبوديا</string>
+    <string name="country_canada">كندا</string>
+    <string name="country_china">الصين</string>
+    <string name="country_colombia">كولومبيا</string>
+    <string name="country_cuba">كوبا</string>
+    <string name="country_czech">جمهورية التشيك</string>
+    <string name="country_egypt">مصر</string>
+    <string name="country_france">فرنسا</string>
+    <string name="country_germany">المانيا</string>
+    <string name="country_ireland">ايرلندا</string>
+    <string name="country_japan">اليابان</string>
+    <string name="country_belgium_luxembourg"><![CDATA[بلجيكا & لوكسمبورج]]></string>
+    <string name="country_bosnia_herzegovina">البوسنة والهرسك</string>
+    <string name="country_united_kingdom">المملكة المتحدة</string>
+    <string name="country_united_states">الولايات المتحدة الأمريكية</string>
+    <string name="country_south_africa">جنوب أفريقيا</string>
+    <string name="country_switzerland">سويسرا</string>
+    <string name="country_netherlands">هولندا</string>
+    <string name="country_new_zealand">نيوزيلاندا</string>
+    <string name="country_russia">روسيا</string>
+    <string name="country_denmark">الدنمارك</string>
+    <string name="country_greece">اليونان</string>
+    <string name="country_finland">فنلندا</string>
+    <string name="country_norway">النرويج</string>
+    <string name="country_sweden">السويد</string>
+    <string name="country_italy">أيطاليا</string>
+    <string name="country_spain">اسبانيا</string>
+    <string name="country_turkey">تركيا</string>
+    <string name="country_bulgaria">بولغاريا</string>
+    <string name="country_slovenia">سلوفينيا</string>
+    <string name="country_croatia">كرواتيا</string>
+    <string name="country_montenegro">الجبل الأسود</string>
+    <string name="country_kyrgyzstan">قيرغيزستان</string>
+    <string name="country_taiwan">تايوان</string>
+    <string name="country_estonia">إستونيا</string>
+    <string name="country_latvia">لاتفيا</string>
+    <string name="country_azerbaijan">أذربيجان</string>
+    <string name="country_lithuania">ليتوانيا</string>
+    <string name="country_uzbekistan">أوزبكستان</string>
+    <string name="country_sri_lanka">سيريلانكا</string>
+    <string name="country_philippines">الفلبين</string>
+    <string name="country_belarus">بيلاروسيا</string>
+    <string name="country_ukraine">اوكرانيا</string>
+    <string name="country_turkmenistan">تركمانستان</string>
+    <string name="country_moldova">مولدوفا</string>
+    <string name="country_georgia">جورجيا</string>
+    <string name="country_kazakhstan">كازاخستان</string>
+    <string name="country_tajikistan">طاجيكستان</string>
+    <string name="country_hong_kong">هونج كونج</string>
+    <string name="country_lebanon">لبنان</string>
+    <string name="country_cyprus">قبرص</string>
+    <string name="country_albania">البانيا</string>
+    <string name="country_macedonia">مقدونيا</string>
+    <string name="country_malta">مالطا</string>
+    <string name="country_portugal">البرتغال</string>
+    <string name="country_iceland">أيسلندا</string>
+    <string name="country_poland">بولندا</string>
+    <string name="country_romania">رومانيا</string>
+    <string name="country_hungary">المجر</string>
+    <string name="country_ghana">غانا</string>
+    <string name="country_senegal">السنغال</string>
+    <string name="country_mauritius">موريشيوس</string>
+    <string name="country_morocco">المغرب</string>
+    <string name="country_nigeria">نيجيريا</string>
+    <string name="country_kenya">كينيا</string>
+    <string name="country_ivory_coast">ساحل العاج</string>
+    <string name="country_tunisia">تونس</string>
+    <string name="country_tanzania">تنزانيا</string>
+    <string name="country_syria">سوريا</string>
+    <string name="country_brunei">بروناي</string>
+    <string name="country_libya">ليبيا</string>
+    <string name="country_jordan">الأردن</string>
+    <string name="country_iran">إيران</string>
+    <string name="country_kuwait">الكويت</string>
+    <string name="country_saudi_arabia">السعودية</string>
+    <string name="country_emirates">الإمارات</string>
+    <string name="pigs">بلد الخنازير</string>
+    <string name="country_guatemala">غواتيمالا</string>
+    <string name="country_el_salvador">السلفادور</string>
+    <string name="country_honduras">هندوراس</string>
+    <string name="country_nicaragua">نيكاراغوا</string>
+    <string name="country_costa_rica">كوستا ريكا</string>
+    <string name="country_panama">بنما</string>
+    <string name="country_dominican">الدومينيكان</string>
+    <string name="country_mexico">المكسيك</string>
+    <string name="country_venezuela">فنزويلا</string>
+    <string name="country_uruguay">أوروغواي</string>
+    <string name="country_peru">بيرو</string>
+    <string name="country_bolivia">بوليفيا</string>
+    <string name="country_chile">شيلي</string>
+    <string name="country_paraguay">باراجواي</string>
+    <string name="country_ecuador">الاكوادور</string>
+    <string name="country_slovakia">سلوفاكيا</string>
+    <string name="country_serbia">صربيا</string>
+    <string name="country_mongolia">منغوليا</string>
+    <string name="country_north_korea">كوريا الشمالية</string>
+    <string name="country_south_korea">كوريا الجنوبية</string>
+    <string name="country_thailand">تايلاند</string>
+    <string name="country_singapore">سنغافورة</string>
+    <string name="country_india">الهند</string>
+    <string name="country_vietnam">فيتنام</string>
+    <string name="country_pakistan">باكستان</string>
+    <string name="country_indonesia">إندونيسيا</string>
+    <string name="country_malaysia">ماليزيا</string>
+</resources>

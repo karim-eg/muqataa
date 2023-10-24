@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023-2023. Encept Ltd Company, https://encept.co
+  ~ contact: support@encept.co
+  -->
+
+<resources>
+    <color name="colorPrimary">#388E3C</color>
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="colorAccent">#388E3C</color>
+    <color name="colorControlHighlight">#2E7D32</color>
+    <color name="colorControlNormal">#388E3C</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#C62828</color>
+    <color name="darkGray">#1D2733</color>
+    <color name="gray">#E0E0E0</color>
+</resources>

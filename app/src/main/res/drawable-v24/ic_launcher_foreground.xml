@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023-2023. Encept Ltd Company, https://encept.co
+  ~ contact: support@encept.co
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="@color/white"
+        android:strokeWidth="0.0454689"
+        android:pathData="M 33.999998,70.499997 v -9.096679 l 3.636365,-0.02183 v 5.458001 l 5.454542,-0.03429 v 3.638647 z m 30.909089,-0.19457 v -3.638678 l 5.454546,-0.0343 v -5.458035 l 3.636365,-0.02307 v 9.096683 z M 39.454543,65.007758 V 43.175783 l 3.636362,-0.02307 v 21.832006 z m 5.454546,-0.0343 V 43.141473 l 1.818183,-0.01153 v 21.831989 z m 5.454545,-0.03429 V 43.107204 l 3.636365,-0.02307 v 21.831991 z m 5.454548,-0.0343 v -21.83201 l 5.454547,-0.03437 v 21.83201 z m 7.272712,-0.04584 V 43.027029 l 1.818193,-0.01153 v 21.831997 z m 3.636366,-0.02182 V 43.005045 l 1.818182,-0.01153 V 64.825536 Z M 33.999998,46.849883 v -9.096671 l 9.090907,-0.05728 v 3.638667 l -5.454542,0.03437 v 5.458003 z m 36.363635,-0.229181 v -5.457998 l -5.454546,0.03436 v -3.639785 l 9.090911,-0.05728 v 9.096665 z" />
+</vector>

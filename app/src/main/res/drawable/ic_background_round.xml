@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023-2023. Encept Ltd Company, https://encept.co
+  ~ contact: support@encept.co
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#1d2733"
+        android:strokeWidth="0.849747"
+        android:pathData="M 54 -0.120399 C 83.8374310332 -0.120399 108.025448 24.1101289775 108.025448 54 C 108.025448 83.8898710225 83.8374310332 108.120399 54 108.120399 C 24.1625689668 108.120399 -0.025448 83.8898710225 -0.025448 54 C -0.025448 24.1101289775 24.1625689668 -0.120399 54 -0.120399 Z" />
+</vector>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023-2023. Encept Ltd Company, https://encept.co
+  ~ contact: support@encept.co
+  -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:context=".ui.AboutFragment">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgAppLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/app_name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imgAppLogo"
+            app:layout_constraintStart_toStartOf="@+id/imgAppLogo"
+            app:layout_constraintTop_toBottomOf="@+id/imgAppLogo" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtAppName" />
+
+        <TextView
+            android:id="@+id/txtEncept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:text="@string/developed_by_encept"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <TextView
+            android:id="@+id/txtDevelopedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/main_developer"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtEncept" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardDeveloper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/txtDevelopedBy"
+            app:layout_constraintTop_toBottomOf="@+id/txtDevelopedBy">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgDev"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_karim"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtDevName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/karim_abdallah"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/imgDev"
+                    app:layout_constraintTop_toTopOf="@+id/imgDev" />
+
+                <TextView
+                    android:id="@+id/txtDevInfo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/developer_info"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/txtDevName"
+                    app:layout_constraintTop_toBottomOf="@+id/txtDevName" />
+
+                <ImageView
+                    android:id="@+id/imgGithub"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/ic_github"
+                    app:layout_constraintStart_toStartOf="@+id/txtDevInfo"
+                    app:layout_constraintTop_toBottomOf="@+id/txtDevInfo"
+                    tools:ignore="ContentDescription"
+                    app:tint="@color/darkGray" />
+
+                <ImageView
+                    android:id="@+id/imgFb"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_fb"
+                    app:tint="@color/darkGray"
+                    app:layout_constraintStart_toEndOf="@+id/imgGithub"
+                    app:layout_constraintTop_toTopOf="@+id/imgGithub"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgLinkedin"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_linkedin"
+                    app:tint="@color/darkGray"
+                    app:layout_constraintStart_toEndOf="@+id/imgFb"
+                    app:layout_constraintTop_toTopOf="@+id/imgGithub"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgWeb"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/ic_website"
+                    app:tint="@color/darkGray"
+                    app:layout_constraintStart_toEndOf="@+id/imgLinkedin"
+                    app:layout_constraintTop_toTopOf="@+id/imgGithub"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgEmail"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_email"
+                    app:tint="@color/darkGray"
+                    app:layout_constraintStart_toEndOf="@+id/imgWeb"
+                    app:layout_constraintTop_toTopOf="@+id/imgGithub"
+                    tools:ignore="ContentDescription" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <Button
+            android:id="@+id/btnPrivacy"
+            style="@style/Widget.Material3.Button.TonalButton.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/gray"
+            android:elevation="2dp"
+            android:text="@string/privacy_policy"
+            app:icon="@drawable/ic_privacy"
+            app:layout_constraintEnd_toEndOf="@+id/cardDeveloper"
+            app:layout_constraintStart_toStartOf="@+id/cardDeveloper"
+            app:layout_constraintTop_toBottomOf="@+id/cardDeveloper" />
+
+        <Button
+            android:id="@+id/btnMoreApps"
+            style="@style/Widget.Material3.Button.TonalButton.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:layout_marginTop="8dp"
+            android:elevation="2dp"
+            android:text="@string/more_apps"
+            app:icon="@drawable/ic_more_apps"
+            app:layout_constraintEnd_toEndOf="@+id/cardDeveloper"
+            app:layout_constraintStart_toStartOf="@+id/cardDeveloper"
+            app:layout_constraintTop_toBottomOf="@+id/btnPrivacy" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/ad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnMoreApps" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
