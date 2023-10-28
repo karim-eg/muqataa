@@ -1,6 +1,7 @@
 # Muqataa مُقاطعة
 ### Barcode Reader and scanner to check if the product that you scanned is supporting the fuck!ng zionist country called israel or not.
 
+[![StandWithPalestine](https://raw.githubusercontent.com/kimoandroid/StandWithPalestine/main/assets/palestine_badge.svg)](https://github.com/kimoandroid/StandWithPalestine)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/839fd92cb64e410a977f0b4835a535f3)](https://app.codacy.com/gh/kimoandroid/muqataa/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Build](https://github.com/kimoandroid/muqataa/actions/workflows/android.yml/badge.svg)](https://github.com/kimoandroid/muqataa/actions/workflows/android.yml)
 ![Repo Size](https://img.shields.io/github/repo-size/kimoandroid/muqataa)
@@ -10,6 +11,8 @@
 [![Discord](https://img.shields.io/discord/954020097381502976.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ptz6VByDbv)
 
 __Don't forget to <a href="https://github.com/kimoandroid/muqataa">Star</a> the project & <a href="https://github.com/kimoandroid/muqataa/fork">Fork</a> if you want to develop the application.__
+
+[![StandWithPalestine](https://raw.githubusercontent.com/kimoandroid/StandWithPalestine/main/assets/palestine_banner.svg)](https://github.com/kimoandroid/StandWithPalestine/blob/main/Donate.md)
 
 ## Technologies Used
 [![Technologies](https://skillicons.dev/icons?i=kotlin,androidstudio,idea,gradle&perline=12)](https://skillicons.dev)
