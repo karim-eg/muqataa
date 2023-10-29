@@ -10,6 +10,7 @@
 [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 [![Discord](https://img.shields.io/discord/954020097381502976.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ptz6VByDbv)
 
+
 __Don't forget to <a href="https://github.com/kimoandroid/muqataa">Star</a> the project & <a href="https://github.com/kimoandroid/muqataa/fork">Fork</a> if you want to develop the application.__
 
 <br>
