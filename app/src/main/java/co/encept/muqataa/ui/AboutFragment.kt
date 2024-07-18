@@ -1,6 +1,7 @@
 /*
- * Copyright (c) 2023-2023. Encept Ltd Company, https://encept.co
- * contact: support@encept.co
+ * Copyright (c) 2023-2024. Kotect Company, https://kotect.com
+ * Main Programmer: Karim Abdallah
+ * contact: support@kotect.com
  */
 package co.encept.muqataa.ui
 

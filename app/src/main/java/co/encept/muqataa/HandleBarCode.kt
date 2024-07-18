@@ -1,6 +1,7 @@
 /*
- * Copyright (c) 2023-2023. Encept Ltd Company, https://encept.co
- * contact: support@encept.co
+ * Copyright (c) 2023-2024. Kotect Company, https://kotect.com
+ * Main Programmer: Karim Abdallah
+ * contact: support@kotect.com
  */
 
 package co.encept.muqataa
@@ -9,9 +10,6 @@ import android.content.Context
 
 
 class HandleBarCode {
-
-
-
     fun getCountry(c: Context, code: String): String {
         if (code.length >= 3) {
             return when (code.substring(0, 3)) {

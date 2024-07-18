@@ -1,6 +1,7 @@
 /*
- * Copyright (c) 2023-2023. Encept Ltd Company, https://encept.co
- * contact: support@encept.co
+ * Copyright (c) 2023-2024. Kotect Company, https://kotect.com
+ * Main Programmer: Karim Abdallah
+ * contact: support@kotect.com
  */
 
 package co.encept.muqataa.ui.models
@@ -57,7 +58,7 @@ class ValidateBarcodeModel(val app: Application) :  AndroidViewModel(app) {
 
 
     private fun loadForbiddenList() {
-        val uri = "https://kimoandroid.github.io/muqataa-api/banned.json"
+        val uri = "https://karim-eg.github.io/muqataa-api/banned.json"
         OkHttpClient().newCall(Request.Builder().url(uri).build()).enqueue(object : Callback {
             override fun onFailure(call: Call, e: IOException) { }
 
