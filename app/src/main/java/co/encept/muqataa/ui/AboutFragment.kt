@@ -28,8 +28,33 @@ class AboutFragment : Fragment() {
             ad.loadAd(AdRequest.Builder().build())
 
 
+            imgKotWeb.setOnClickListener {
+                openBrowser("https://kotect.com", requireContext())
+            }
+
+            imgKotGithub.setOnClickListener {
+                openBrowser("https://github.com/kotect-ltd", requireContext())
+            }
+
+            imgKotFb.setOnClickListener {
+                openBrowser("https://www.facebook.com/kotect.ltd", requireContext())
+            }
+
+            imgKotLinkedin.setOnClickListener {
+                openBrowser("https://www.linkedin.com/company/kotect", requireContext())
+            }
+
+
+            imgKotEmail.setOnClickListener {
+                val intent = Intent(Intent.ACTION_SENDTO)
+                intent.data = Uri.parse("mailto:support@kotect.com")
+                intent.putExtra(Intent.EXTRA_SUBJECT, "Contact Kotect Company")
+                startActivity(Intent.createChooser(intent, "Send Email"))
+            }
+
+
             imgGithub.setOnClickListener {
-                openBrowser("https://github.com/kimoandroid", requireContext())
+                openBrowser("https://github.com/karim-eg", requireContext())
             }
 
             imgFb.setOnClickListener {
@@ -40,19 +65,16 @@ class AboutFragment : Fragment() {
                 openBrowser("https://www.linkedin.com/in/karim-abdallah-dev", requireContext())
             }
 
-            imgWeb.setOnClickListener {
-                openBrowser("https://encept.co", requireContext())
-            }
-
             imgEmail.setOnClickListener {
                 val intent = Intent(Intent.ACTION_SENDTO)
-                intent.data = Uri.parse("mailto:karim@encept.co")
+                intent.data = Uri.parse("mailto:karim@kotect.com")
                 intent.putExtra(Intent.EXTRA_SUBJECT, "Contact Muqataa Developer")
                 startActivity(Intent.createChooser(intent, "Send Email"))
             }
 
+
             btnPrivacy.setOnClickListener {
-                openBrowser("https://github.com/kimoandroid/muqataa/blob/main/privacy-policy.md", requireContext())
+                openBrowser("https://github.com/karim-eg/muqataa/blob/main/privacy-policy.md", requireContext())
             }
 
             btnMoreApps.setOnClickListener {

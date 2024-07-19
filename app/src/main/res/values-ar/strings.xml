@@ -28,13 +28,18 @@
     <string name="product_country">دولة غير معروفة</string>
     <string name="product_unknown">لم يتم التعرف على المنتج!</string>
 
-    <string name="developed_by_encept">تم تطوير ونشر تطبيق "\مقاطعة"\ بواسطة شركة Encept</string>
     <string name="main_developer">المُطور الرئيسي</string>
     <string name="karim_abdallah">كريم عبدالله</string>
     <string name="developer_info">مبرمج تطبيقات أندرويد لدى شركة Encept\nومؤسس شركة Encept.</string>
 
+    <string name="kotect_company">شركة كوتيكت</string>
+    <string name="kotect_info">Established in 2021, Kotect is an Egyptian software company specializing in IT services. They assist businesses with their technological needs, likely offering solutions like software development, web design, or IT consulting.</string>
+
+
     <string name="close">إغلاق</string>
     <string name="coming_soon">سيكون جاهز قريبًا</string>
+
+    <string name="developed_by_txt">تم التطوير بواسطة</string>
 
 
     <!-- Countries -->

@@ -44,7 +44,7 @@
 
         <com.google.android.material.divider.MaterialDivider
             android:id="@+id/divider"
-            android:layout_width="0dp"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -52,16 +52,130 @@
             app:layout_constraintTop_toBottomOf="@+id/txtAppName" />
 
         <TextView
-            android:id="@+id/txtEncept"
+            android:id="@+id/txtCompany"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:textColor="@color/black"
-            android:text="@string/developed_by_encept"
+            android:text="@string/developed_by_txt"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardCompany"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/txtCompany"
+            app:layout_constraintTop_toBottomOf="@+id/txtCompany">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgCompany"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_kotect"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txtCompanyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/kotect_company"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/imgCompany"
+                    app:layout_constraintTop_toTopOf="@+id/imgCompany" />
+
+                <TextView
+                    android:id="@+id/txtCompanyInfo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kotect_info"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/txtCompanyName"
+                    app:layout_constraintTop_toBottomOf="@+id/txtCompanyName" />
+
+                <ImageView
+                    android:id="@+id/imgKotGithub"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/ic_github"
+                    app:layout_constraintStart_toStartOf="@+id/txtCompanyInfo"
+                    app:layout_constraintTop_toBottomOf="@+id/txtCompanyInfo"
+                    app:tint="@color/darkGray"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgKotFb"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_fb"
+                    app:layout_constraintStart_toEndOf="@+id/imgKotGithub"
+                    app:layout_constraintTop_toTopOf="@+id/imgKotGithub"
+                    app:tint="@color/darkGray"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgKotLinkedin"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_linkedin"
+                    app:layout_constraintStart_toEndOf="@+id/imgKotFb"
+                    app:layout_constraintTop_toTopOf="@+id/imgKotGithub"
+                    app:tint="@color/darkGray"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgKotWeb"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/ic_website"
+                    app:layout_constraintStart_toEndOf="@+id/imgKotLinkedin"
+                    app:layout_constraintTop_toTopOf="@+id/imgKotGithub"
+                    app:tint="@color/darkGray"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgKotEmail"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_email"
+                    app:layout_constraintStart_toEndOf="@+id/imgKotWeb"
+                    app:layout_constraintTop_toTopOf="@+id/imgKotGithub"
+                    app:tint="@color/darkGray"
+                    tools:ignore="ContentDescription" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/divider2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardCompany" />
+
 
         <TextView
             android:id="@+id/txtDevelopedBy"
@@ -72,7 +186,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtEncept" />
+            app:layout_constraintTop_toBottomOf="@+id/divider2" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardDeveloper"
@@ -155,42 +269,42 @@
                     tools:ignore="ContentDescription" />
 
                 <ImageView
-                    android:id="@+id/imgWeb"
+                    android:id="@+id/imgEmail"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="5dp"
-                    android:src="@drawable/ic_website"
+                    android:src="@drawable/ic_email"
                     app:tint="@color/darkGray"
                     app:layout_constraintStart_toEndOf="@+id/imgLinkedin"
                     app:layout_constraintTop_toTopOf="@+id/imgGithub"
                     tools:ignore="ContentDescription" />
-
-                <ImageView
-                    android:id="@+id/imgEmail"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="8dp"
-                    android:src="@drawable/ic_email"
-                    app:tint="@color/darkGray"
-                    app:layout_constraintStart_toEndOf="@+id/imgWeb"
-                    app:layout_constraintTop_toTopOf="@+id/imgGithub"
-                    tools:ignore="ContentDescription" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/divider3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardDeveloper" />
+
 
         <Button
             android:id="@+id/btnPrivacy"
             style="@style/Widget.Material3.Button.TonalButton.Icon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="16dp"
             android:backgroundTint="@color/gray"
             android:elevation="2dp"
             android:text="@string/privacy_policy"
             app:icon="@drawable/ic_privacy"
             app:layout_constraintEnd_toEndOf="@+id/cardDeveloper"
             app:layout_constraintStart_toStartOf="@+id/cardDeveloper"
-            app:layout_constraintTop_toBottomOf="@+id/cardDeveloper" />
+            app:layout_constraintTop_toBottomOf="@+id/divider3" />
 
         <Button
             android:id="@+id/btnMoreApps"

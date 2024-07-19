@@ -28,13 +28,17 @@
     <string name="product_country">Unknown Country</string>
     <string name="product_unknown">Unknown Product</string>
 
-    <string name="developed_by_encept"><![CDATA[Developed & published by Encept Ltd Company.]]></string>
     <string name="main_developer">Main Developer</string>
     <string name="karim_abdallah">Karim Abdallah</string>
-    <string name="developer_info">Android Developer, Backend Developer at Encept Company.\nCEO Of Encept Company.</string>
+    <string name="developer_info">Android Developer Using Kotlin Native, Jetpack Compose &amp; Java, where I use my skills in PHP, SQL, Kotlin and Java to design, develop, and maintain the backend and frontend of my applications.</string>
+
+    <string name="kotect_company">Kotect Company</string>
+    <string name="kotect_info">Established in 2021, Kotect is an Egyptian software company specializing in IT services. They assist businesses with their technological needs, likely offering solutions like software development, web design, or IT consulting.</string>
 
     <string name="close">Close</string>
     <string name="coming_soon">Coming Soon</string>
+
+    <string name="developed_by_txt">Developed By</string>
 
     <!-- Countries -->
     <string name="country_algeria">Algeria</string>
