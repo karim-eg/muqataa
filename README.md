@@ -6,7 +6,6 @@
 [![Build](https://github.com/karim-eg/muqataa/actions/workflows/android.yml/badge.svg)](https://github.com/karim-eg/muqataa/actions/workflows/android.yml)
 
 ![Repo Size](https://img.shields.io/github/repo-size/karim-eg/muqataa)
-[![Lines Of Code](https://tokei.rs/b1/github/karim-eg/muqataa?category=code)](https://github.com/karim-eg/muqataa)
 [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 [![Discord](https://img.shields.io/discord/954020097381502976.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ptz6VByDbv)
 
@@ -14,8 +13,6 @@
 __Don't forget to <a href="https://github.com/karim-eg/muqataa">Star</a> the project & <a href="https://github.com/karim-eg/muqataa/fork">Fork</a> if you want to develop the application.__
 
 <br>
-
-[![StandWithPalestine](https://raw.githubusercontent.com/karim-eg/StandWithPalestine/main/assets/palestine_banner.svg)](https://github.com/karim-eg/StandWithPalestine/blob/main/Donate.md)
 
 ## Technologies Used
 [![Technologies](https://skillicons.dev/icons?i=kotlin,androidstudio,idea,gradle&perline=12)](https://skillicons.dev)
@@ -51,6 +48,6 @@ Fast Scanner | Manual Scan | Clean Design
 ### Contact Me:
 <a href="https://www.facebook.com/karim.abdallah.dev" target="_blank"><img src="https://img.shields.io/badge/-Karim%20Abdallah-0077B5?style=for-the-badge&logo=Facebook&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/karim-abdallah-dev" target="_blank"><img src="https://img.shields.io/badge/-Karim%20Abdallah-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
-<a href="mailto:karim@encept.co" target="_blank"><img src="https://img.shields.io/badge/-karim@encept.co-0077B5?style=for-the-badge&logo=Gmail&logoColor=white"/></a>
+<a href="mailto:karim@kotect.com" target="_blank"><img src="https://img.shields.io/badge/-karim@kotect.com-0077B5?style=for-the-badge&logo=Gmail&logoColor=white"/></a>
 
-#### Powered by [Encept Ltd](https://encept.co).
+#### Developed by [Kotect](https://kotect.com).
