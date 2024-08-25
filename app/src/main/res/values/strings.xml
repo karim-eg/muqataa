@@ -24,7 +24,7 @@
     <string name="barcode_enter_info">Enter the barcode number that written on the product below the barcode.</string>
 
     <string name="product_okay">It\'s Okay To Use This Product</string>
-    <string name="product_banned">Muqataa!!, This Product Is Listed at Blacklist You Have To Boycott It</string>
+    <string name="product_banned">Boycott!!</string>
     <string name="product_country">Unknown Country</string>
     <string name="product_unknown">Unknown Product</string>
 
@@ -33,12 +33,17 @@
     <string name="developer_info">Android Developer Using Kotlin Native, Jetpack Compose &amp; Java, where I use my skills in PHP, SQL, Kotlin and Java to design, develop, and maintain the backend and frontend of my applications.</string>
 
     <string name="kotect_company">Kotect Company</string>
-    <string name="kotect_info">Established in 2021, Kotect is an Egyptian software company specializing in IT services. They assist businesses with their technological needs, likely offering solutions like software development, web design, or IT consulting.</string>
+    <string name="kotect_info">Established in 2021, Kotect is an Egyptian software company specializing in IT services. They assist businesses with their technological needs, likely offering solutions like software development, Android Development, or IT consulting.</string>
 
     <string name="close">Close</string>
     <string name="coming_soon">Coming Soon</string>
 
     <string name="developed_by_txt">Developed By</string>
+
+    <string name="send_email">Send Email</string>
+    <string name="contact_kotect_company">Contact Kotect Company</string>
+    <string name="contact_muqataa_developer">Contact Muqataa Developer</string>
+
 
     <!-- Countries -->
     <string name="country_algeria">Algeria</string>

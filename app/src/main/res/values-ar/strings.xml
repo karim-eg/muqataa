@@ -24,22 +24,26 @@
     <string name="barcode_enter_info">اكتب رقم الباركود المكتوب على المنتج أسفل صورة الباركود.</string>
 
     <string name="product_okay">لا مشكلة في استخدام هذا المنتج</string>
-    <string name="product_banned">مقاطعة!!, هذا المنتج مُدرج في القائمة السوداء يجب علينا مقاطعته</string>
+    <string name="product_banned">مقاطعة!!</string>
     <string name="product_country">دولة غير معروفة</string>
     <string name="product_unknown">لم يتم التعرف على المنتج!</string>
 
     <string name="main_developer">المُطور الرئيسي</string>
-    <string name="karim_abdallah">كريم عبدالله</string>
-    <string name="developer_info">مبرمج تطبيقات أندرويد لدى شركة Encept\nومؤسس شركة Encept.</string>
+    <string name="karim_abdallah">كريم عبد الله</string>
+    <string name="developer_info">مبرمج تطبيقات أندرويد ومؤسس شركة كوتكت</string>
 
-    <string name="kotect_company">شركة كوتيكت</string>
-    <string name="kotect_info">Established in 2021, Kotect is an Egyptian software company specializing in IT services. They assist businesses with their technological needs, likely offering solutions like software development, web design, or IT consulting.</string>
+    <string name="kotect_company">شركة كوتكت</string>
+    <string name="kotect_info">تم تأسيس شركة كوتكت في عام 2021، وهي شركة برمجيات متخصصة في خدمات تكنولوجيا المعلومات. وتقدم حلولًا مثل تطوير البرمجيات وتصميم تطبيقات الأندرويد أو الاستشارات في مجال تكنولوجيا المعلومات.</string>
 
 
     <string name="close">إغلاق</string>
     <string name="coming_soon">سيكون جاهز قريبًا</string>
 
     <string name="developed_by_txt">تم التطوير بواسطة</string>
+
+    <string name="send_email">إرسال البريد</string>
+    <string name="contact_kotect_company">تواصل مع كوتكت</string>
+    <string name="contact_muqataa_developer">تواصل مع المُطَور</string>
 
 
     <!-- Countries -->
@@ -154,4 +158,4 @@
     <string name="country_pakistan">باكستان</string>
     <string name="country_indonesia">إندونيسيا</string>
     <string name="country_malaysia">ماليزيا</string>
-</resources>
+    </resources>

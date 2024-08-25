@@ -14,6 +14,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.browser.customtabs.CustomTabsIntent
+import co.encept.muqataa.Consts
+import co.encept.muqataa.R
 import co.encept.muqataa.databinding.FragmentAboutBinding
 import com.google.android.gms.ads.AdRequest
 
@@ -29,56 +31,56 @@ class AboutFragment : Fragment() {
 
 
             imgKotWeb.setOnClickListener {
-                openBrowser("https://kotect.com", requireContext())
+                openBrowser(Consts.KOTECT_LINK, requireContext())
             }
 
             imgKotGithub.setOnClickListener {
-                openBrowser("https://github.com/kotect-ltd", requireContext())
+                openBrowser(Consts.KOTECT_GITHUB, requireContext())
             }
 
             imgKotFb.setOnClickListener {
-                openBrowser("https://www.facebook.com/kotect.ltd", requireContext())
+                openBrowser(Consts.KOTECT_FACEBOOK, requireContext())
             }
 
             imgKotLinkedin.setOnClickListener {
-                openBrowser("https://www.linkedin.com/company/kotect", requireContext())
+                openBrowser(Consts.KOTECT_LINKEDIN, requireContext())
             }
 
 
             imgKotEmail.setOnClickListener {
                 val intent = Intent(Intent.ACTION_SENDTO)
-                intent.data = Uri.parse("mailto:support@kotect.com")
-                intent.putExtra(Intent.EXTRA_SUBJECT, "Contact Kotect Company")
-                startActivity(Intent.createChooser(intent, "Send Email"))
+                intent.data = Uri.parse("mailto:${Consts.KOTECT_EMAIL}")
+                intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.contact_kotect_company))
+                startActivity(Intent.createChooser(intent, getString(R.string.send_email)))
             }
 
 
             imgGithub.setOnClickListener {
-                openBrowser("https://github.com/karim-eg", requireContext())
+                openBrowser(Consts.KARIM_GITHUB, requireContext())
             }
 
             imgFb.setOnClickListener {
-                openBrowser("https://www.facebook.com/karim.abdallah.dev", requireContext())
+                openBrowser(Consts.KARIM_FACEBOOK, requireContext())
             }
 
             imgLinkedin.setOnClickListener {
-                openBrowser("https://www.linkedin.com/in/karim-abdallah-dev", requireContext())
+                openBrowser(Consts.KARIM_LINKEDIN, requireContext())
             }
 
             imgEmail.setOnClickListener {
                 val intent = Intent(Intent.ACTION_SENDTO)
-                intent.data = Uri.parse("mailto:karim@kotect.com")
-                intent.putExtra(Intent.EXTRA_SUBJECT, "Contact Muqataa Developer")
-                startActivity(Intent.createChooser(intent, "Send Email"))
+                intent.data = Uri.parse("mailto:${Consts.KARIM_EMAIL}")
+                intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.contact_muqataa_developer))
+                startActivity(Intent.createChooser(intent, getString(R.string.send_email)))
             }
 
 
             btnPrivacy.setOnClickListener {
-                openBrowser("https://github.com/karim-eg/muqataa/blob/main/privacy-policy.md", requireContext())
+                openBrowser(Consts.PRIVACY_POLICY, requireContext())
             }
 
             btnMoreApps.setOnClickListener {
-                openBrowser("https://play.google.com/store/apps/dev?id=6033125290854254520", requireContext())
+                openBrowser(Consts.KOTECT_GOOGLE_PLAY, requireContext())
             }
         }
 
